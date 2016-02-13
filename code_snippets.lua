@@ -1,5 +1,8 @@
 -- Equip a diamond pick for the mining tool
 -- have a function to detect presence of peripherals++
+-- use compass peripheral from peripherals++ to help with direction finding
+-- going to need to keep track of which column of road turtle is in to tell it which direction to move,
+--  and how to build road surface
 local debug = false
 local roadBlock={name="",damage=""} -- chisel concrete or MFR road blocks
 local roadBlockStatus = {}
